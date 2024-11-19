@@ -25,10 +25,18 @@ Maven
 MySQL
 Spring Tool Suite (STS) or any IDE supporting Spring Boot
 
-Open the application in your browser at http://localhost:8080/home.
-You will be presented with home page which contains information about student management system also contains button for teacher login.
-After clicking login you can login with username and password or register as new teacher.
-After successful login you will be presented with a list of students. 
-You can:
-1)Add a new student using the Add Student button.
-2)Edit or delete existing students by selecting the corresponding buttons next to each student.
+Configuration Instructions
+To run this project, update the application.properties file with your database credentials.
+1)Create database with name "sms" in your local machine.
+2)Database Username: Add your username in the spring.datasource.username property.
+3)Database Password: Add your password in the spring.datasource.password property.
+For security purposes, only the sample username and password have been provided. Ensure you modify these fields to match your local setup.
+
+Steps to execute project:
+1) Open the application in your browser at http://localhost:8080/home.
+2) You will be presented with home page which contains information about student management system also contains button for teacher login.
+3) After clicking login you can login with username and password or register as new teacher.
+4) After successful login you will be presented with a list of students. 
+  You can:
+  i)Add a new student using the Add Student button.
+  ii)Edit or delete existing students by selecting the corresponding buttons next to each student.
